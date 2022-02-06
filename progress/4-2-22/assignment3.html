@@ -6,6 +6,8 @@
         #info{
             border: solid;
             border-width: 2px;
+            height: min-content;
+            width: 400px;
         }
         #rightarrow{
             padding: auto;
@@ -13,24 +15,28 @@
         #specs{
             border: solid;
             border-width: 1px;
+            background-color: beige;
+            width: 400px;
         }
         #rate{
             color: red;
         }
         #empty{
-            padding: auto;
+            padding-left: 10%;
+            padding-right: 10%;
         }
     </style>
 </head>
 <body>
     <div class="side-by-side">
-        <div name=info id="info">
+        <div name=info id="info" class="side-by-side">
         <h2 >
             New & Used(5) from <br> <span id="rate">CDN $ 18.99</span>& Free Shipping on   <br>order over<span id="rate">CDN $ 35.00</span> 
         </h2>
+        <br>
         <div id="rightarrow">></div>
         </div>
-        <div name="empty" id="empty"></div>
+        <div name="empty" id="empty" ></div>
         <div name="specs" id="specs">
         <ul >
             <li>Free upgrade to Windows 11 when available. Disclaimer-Upgrade rollout plan is being finalized and is scheduled to begin late in 2021 and continue into 2022. Specific timing will vary by device</li>
