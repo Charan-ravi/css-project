@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<head>
+    <title>Groupon clone </title>
+    <script src="https://kit.fontawesome.com/49a6b63fe1.js" crossorigin="anonymous">
+        </script>
+    <style>
+        .topbar{
+            background-color: rgb(6, 6, 112);
+            color: aliceblue;
+        }
+        .topbar ul{
+            list-style: none;
+            display: flex;
+            padding: auto;
+            margin-left: 600px;  
+        }
+        .topbar li{
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+        }
+        .topbar li:hover{
+            transition: all ease 0.3s;
+            text-decoration: underline;
+        }
+        .logo img{
+            width: 100px;
+        }
+        .logo span{
+            font-size: large;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 80px;
+        }
+        .offers{
+            background-color: rgb(95, 236, 236);
+        }
+        .offers ul{
+            list-style: none;
+            display: flex;
+            padding-right: 10%;
+            padding-left: 8%;
+        }
+        .offers span{
+            padding-bottom: 0px;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-right: 20px;
+        }
+        .offers li:hover{
+            transition: all ease 0.3s;
+            text-decoration: underline;
+        }
+        .icons ul{
+            list-style: none;
+            display: flex;
+        }
+        .icons li{
+            padding: 30px;
+            height: 60px;
+        }
+        .icons button{
+            height: 100px;
+            width: 140px;
+        }
+        .deals{
+            padding: 30px;
+            display: flex;
+            
+        }
+        .deals div{
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+        h2{
+            margin-left: 40px;
+        }
+        .featured{
+            display: flex;
+            padding: 50px;
+        }
+        .featured div{
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+        .deals_under{
+            display: flex;
+            padding: 40px;
+
+        }
+        .deals_under button{
+            height: 100px;
+            width: 140px;
+        }
+        .deals_under div{
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <div class="logo">
+            <!-- <img src="https://th.bing.com/th/id/OIP.ZuTLMxMbRJyI6t0-IF1uwgHaBL?w=305&h=59&c=7&r=0&o=5&dpr=1.25&pid=1.7"> -->
+            <span>GROUPON</span>
+            <button>Categories</button>
+        </div>
+        <ul>
+            <li><i class="fa-solid fa-qrcode"></i> Get the Groupon App</li>
+
+            <li><i class="fa-regular fa-heart"></i> Wishlist</li>
+            <li>Sell</li>
+            <li>Help</li>
+            <li>Sign up</li>
+        </ul>
+        <br>
+        <ul style="margin-left: 1000px;">
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+            <li><i class="fa-solid fa-bell"></i></li>
+            <li>
+                <button>Sign In
+                    <!-- <select>
+                        <option>Sign In</option>
+                        <option></option>
+                    </select>  -->
+                </button>
+            </li>
+        </ul>
+        <div>
+            <center>
+                <button>Chicago</button>
+                <br>
+                <textarea style="height: 20px;">Search Groupon</textarea>
+            </center>
+            
+        </div>
+        
+
+    </div>
+    <div class="offers">
+        <ul>
+            <li>Earn 20% Off Activites,Beauty, Dining & More.</li><span>|</span>
+            <li>New! Share your interests for a more personalized experience in the Preference Center.</li><span>|</span>
+            <li>Switch to the app! Search, purchase, and redeem Groupons directly from your mobile device.</li>
+        </ul>
+    </div>
+    <div class="icons">
+        <ul>
+            <li><button><i class="fa-solid fa-clipboard-list"></i>Things To Do</button></li>
+            <li><button><i class="fa-solid fa-spa"></i>Beauty & Spas</button></li>
+            <li><button><i class="fa-solid fa-burger"></i>Food & Drink</button></li>
+            <li><button><i class="fa-solid fa-person-running"></i>Health & Fitness</button></li>
+            <li><button><i class="fa-solid fa-caravan"></i>Travel</button></li>
+            <li><button><i class="fa-solid fa-car"></i>Automotive</button></li>
+            <li><button><i class="fa-solid fa-cookie"></i>Goods</button></li>
+        </ul>
+    </div>
+    <br>
+    <h2>Trending Deals for you</h2>
+    <div class="deals">
+        <div class="deal1">
+            <img src="">
+            <p>
+                <b>King Spa and Sauna</b><br>
+                809 Civic Center Dr.Niles<br>
+                4.7 **** 40772 Ratings
+            </p><br>
+            <h3><span style="text-decoration: line-through; color: grey;">$50</span><span style="text-decoration: line-through; color: green;">$35</span><span style="text-decoration: dashed; color: red;">$28 </span> <span style="size: 10px; color: red;">Ends Tomorrow</span></h3>
+            <p>General Spa Admission for One</p>
+        </div>
+        <div class="deal2">
+            <img src="">
+            <p>
+                <b>Bowlmor Lanes</b><br>
+                4.7 **** 30948 Ratings
+            </p><br>
+            <h3><span style="text-decoration: line-through; color: grey;">$67.72</span><span style=" color: green;">$25 </span><span style="background-color: rgba(61, 252, 86, 0.5); color: rgb(27, 105, 24);">63% OFF</span> </h3>
+            <p>Two Hours of Bowling and Shoe R..</p>
+        </div>
+        <div class="deal3">
+            <img src="">
+            <p>
+                <b>Sam's Club</b><br>
+                4.3 **** 110495 Ratings
+            </p><br>
+            <h3><span style="text-decoration: line-through; color: grey;">$62.98</span><span style=" color: green;">$25 </span><span style="background-color: rgba(61, 252, 86, 0.5); color: rgb(27, 105, 24);">60% OFF</span> </h3>
+            <p>$25 Sam's Club Membership Pack..</p>
+        </div>
+        <div class="deal4">
+            <img src="">
+            <p>
+                <b>Elements Massage</b><br>
+                507 S 3rd St.,Geneva<br>
+                4.8 ***** 473 Ratings
+            </p><br>
+            <h3><span style="text-decoration: line-through; color: grey;">$297</span><span style=" color: green;">$149 </span><span style="background-color: rgba(61, 252, 86, 0.5); color: rgb(27, 105, 24);">49% OFF</span> </h3>
+            <p>3 One Hour Massage Sessions</p>
+        </div>
+        <div class="deal5">
+            <img src="">
+            <p>
+                <b>Simple Canvas Prints</b><br>
+                4.1 **** 40473 Ratings
+            </p><br>
+            <h3><span style="text-decoration: line-through; color: grey;">$89.40</span><span style="text-decoration: line-through; color: green;">$9 </span><span style="color: red;">$4 </span><span style=" color: rgb(236, 41, 41);">Ends Tomorrow</span> </h3>
+            <p>One 8x10" Custom Canvas Print V..</p>
+        </div>
+    </div>
+    <div class="images">
+
+    </div>
+    <br>
+    <h2>New Deals for You</h2>
+    <br>
+    <div class="deals">
+        <div class="deal1">
+            <img src="">
+            <p>
+                <b>Jim Gaffigan: The Fun Tour</b><br>
+                175 N State St.,Chicago<br>
+            </p><br>
+            <h3><span style="text-decoration: line-through; color: grey;">$92.74</span><span style="text-decoration: line-through; color: green;">$35</span><span style="background-color: rgba(61, 252, 86, 0.5); color: rgb(27, 105, 24);">62% OFF</span></h3>
+            <p>Stand-Up Comedy: Jim Gaffigan</p>
+            <p>300+ viewed today</p>
+        </div>
+        <div class="deal2">
+            <img src="">
+            <p>
+                <b>Bowlmor Lanes</b><br>
+                4.7 **** 30948 Ratings
+            </p><br>
+            <h3><span style="text-decoration: line-through; color: grey;">$67.72</span><span style=" color: green;">$25 </span><span style="background-color: rgba(61, 252, 86, 0.5); color: rgb(27, 105, 24);">63% OFF</span> </h3>
+            <p>Two Hours of Bowling and Shoe R..</p>
+        </div>
+        <div class="deal3">
+            <img src="">
+            <p>
+                <b>Rosati's Pizza Sports Pub-...</b><br>
+                3110 Illinois 60,Mundelein<br>
+                4.8 ***** 20 Ratings
+            </p><br>
+            <h3><span style="text-decoration: line-through; color: grey;">$20</span><span style=" color: green;">$10 </span><span style="background-color: rgba(61, 252, 86, 0.5); color: rgb(27, 105, 24);">50% OFF</span> </h3>
+            <p>Italian Food | Pizza | Pasta</p>
+        </div>
+        <div class="deal4">
+            <img src="">
+            <p>
+                <b>Keller Williams School of Re..</b><br>
+                5780 Windward Parkway, Alpharet..<br>
+                3.9 ***** 32 Ratings
+            </p><br>
+            <h3><span style="text-decoration: line-through; color: grey;">$1</span><span style=" color: green;">$0.50 </span><span style="background-color: rgba(61, 252, 86, 0.5); color: rgb(27, 105, 24);">50% OFF</span> </h3>
+            <p>Online Real Estate Course</p>
+        </div>
+        <div class="deal5">
+            <img src="">
+            <p>
+                <b>Simple Canvas Prints</b><br>
+                4.1 **** 40473 Ratings
+            </p><br>
+            <h3><span style="text-decoration: line-through; color: grey;">$89.40</span><span style="text-decoration: line-through; color: green;">$9 </span><span style="color: red;">$4 </span><span style=" color: rgb(236, 41, 41);">Ends Tomorrow</span> </h3>
+            <p>One 8x10" Custom Canvas Print V..</p>
+        </div>
+    </div>
+    <br>
+    <h2>Featured</h2>
+    <br>
+    <p class="featured">Sponsored</p>
+    <div class="featured">
+        <div class="deal1">
+            <img src="">
+            <p>
+                <b>HelloFresh</b><br>
+                4.1 **** 19831 Ratings<br>
+            </p><br>
+            <h3><span style="text-decoration: line-through; color: grey;">$69.74</span><span style="text-decoration: line-through; color: green;">$25</span><span style="background-color: rgba(61, 252, 86, 0.5); color: rgb(27, 105, 24);">64% OFF</span></h3>
+            <p>New HelloFresh Customers: 1 Wee..</p>
+        </div>
+        <div class="deal2">
+            <img src="">
+            <p>
+                <b>ABCmouse.com</b><br>
+                4.2 **** 6948 Ratings
+            </p><br>
+            <h3><span style="text-decoration: line-through; color: grey;">$12.72</span><span style=" color: green;">$5 </span> </h3>
+            <p>Kid's Digital Learning Academy</p>
+        </div>
+        <div class="deal3">
+            <img src="">
+            <p>
+                <b>6 Wines for $34.95 +Free Shipping</b><br>
+                Firstleaf . 1 Coupon
+            </p><br>
+            <!-- <h3><span style="text-decoration: line-through; color: grey;">$20</span><span style=" color: green;">$10 </span><span style="background-color: rgba(61, 252, 86, 0.5); color: rgb(27, 105, 24);">50% OFF</span> </h3>
+            <p>Italian Food | Pizza | Pasta</p> -->
+        </div>
+        <div class="deal4">
+            <img src="">
+            <p>
+                <b>Try for 30-Days HOMER Online Learning for Kids 2 to</b><br>
+                HOMER . 1 Coupon
+            </p><br>
+            <!-- <h3><span style="text-decoration: line-through; color: grey;">$1</span><span style=" color: green;">$0.50 </span><span style="background-color: rgba(61, 252, 86, 0.5); color: rgb(27, 105, 24);">50% OFF</span> </h3>
+            <p>Online Real Estate Course</p> -->
+        </div>
+        <div class="deal5">
+            <img src="">
+            <p>
+                <b>75% Off Keto Cycle Meal Plan</b><br>
+                Keto Cycle . 1 Coupon
+            </p><br>
+            <!-- <h3><span style="text-decoration: line-through; color: grey;">$89.40</span><span style="text-decoration: line-through; color: green;">$9 </span><span style="color: red;">$4 </span><span style=" color: rgb(236, 41, 41);">Ends Tomorrow</span> </h3>
+            <p>One 8x10" Custom Canvas Print V..</p> -->
+        </div>
+    </div>
+    <div class="deals_under">
+        <div class="box1">
+            <img src="">
+            <button>Beauty & Wellness</button>
+        </div>
+        <div class="box2">
+            <img src="">
+            <button>Home & Automotive Services</button>
+        </div>
+        <div class="box3">
+            <img src="">
+            <button>Activites & Attractions</button>
+        </div>
+        <div class="box4">
+            <img src="">
+            <button>Food & Drink</button>
+        </div>
+    </div>
+</body>
+</html>
