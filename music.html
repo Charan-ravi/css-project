@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<head>
+    <title>Music</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+        <style>
+        *{
+            background-color: bisque;
+        }
+        p{
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 50px;
+        }
+        li {
+            /* border-bottom: 1px solid; */
+            
+            font-size: 13px;
+            color: rgba(0, 0, 0, 0.884);
+            font-weight: normal;
+            padding: 3px;
+            text-align: -webkit-match-parent;
+
+        }
+        li:hover{
+            transition: 0.3s;
+            text-decoration: line-through;
+        }
+        /* li:checked{
+            color: greenyellow;
+        } */
+        .col-left{
+            float: left;
+            width: 40%;
+            padding: 10px;
+            /* background-color: aquamarine; */
+        }
+        .col-left:hover{
+            border: 2px black solid;
+            color:crimson;
+        }
+        .col-right{
+            float: right;
+            width: 40%;
+            padding: 10px;
+        }
+        .col-right:hover{
+            border: 2px black solid;
+            color:crimson;
+        }
+        p:hover{
+            text-decoration:underline ;
+            color: orange;
+            transition: 0.3s;
+        }
+        .top-bar{
+            /* padding: 10px; */
+            height: 20px;
+           
+        }
+        .al{
+            width: fit-content;
+            color: aliceblue;
+            float: left;
+            /* color: #f2f2f2; */
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+            font-size: 25px;
+            margin-top: 5px;
+            background-color: rgb(66, 62, 62);
+        }
+        .spotify{
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div name="top-bar"style="background-color: rgb(66, 62, 62);  color: white;display: flex;">
+        
+        <a class="al"  href="S:/git-proj/css-project/myblogsite.html">Home </a>
+        <!-- <a class="al" href="#about" data-animation-role="header-element">About</a> -->
+        <a class="al"  href="S:\git-proj\css-project\progress\5-2-22\myblog.html">Books</a>
+        <!-- <a class="al" href="#sports" data-animation-role="header-element">Sports</a> -->
+        <a class="al"  href="S:\git-proj\css-project\music.html">Music</a>
+        <a class="al" href="S:\git-proj\css-project\travel.html" data-animation-role="header-element">Travel</a>
+        <!-- <i class="al fas fa-address-card"></i> -->
+        <a  class="al" href="https://www.instagram.com/_charan.r_46/" style="height: 40px;" >
+            <img  style="height: 20px;" src="https://4.bp.blogspot.com/-CASWLlDY9Y4/XDz-d4nOI1I/AAAAAAAAG3I/GnCipTS8YqE2d2WeGn9uAZq3IEVT8pBiwCK4BGAYYCw/s1600/logo%2BInstagram%2Bvector.png"/>
+        </a>
+        <a class="al" href="https://www.facebook.com/charan.ravi.9809" style="height: 40px;">
+             <img  style="height: 20px;" src="https://th.bing.com/th/id/OIP.yJSv22hpgMQb2Jn9Ot6N_AHaHa?pid=ImgDet&rs=1">
+        </a>
+        <!-- <i class=" al fa-brands fa-twitter"></i> -->
+        <!-- <i class="fa-brands fa-twitter-square"></i> -->
+        <!-- <i class="fa-brands fa-instagram"></i> -->
+        <!-- <img class="al" style="height:  42%;" src="https://morningpicker.com/wp-content/uploads/2019/11/fix-instagram-app-windows-10.jpg"> -->
+        
+    </div>
+    <div class="spotify">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/77yoGZlbuGhyQBsVSkmv5N?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    </div>
+    
+    <div class="content">
+        <div class="col-left">
+            <p>My Top 20 Songs</p>
+          <br>
+          <ol>
+            <li>Arabic kuthu</li>
+            <li>Thooriga</li>
+            <li>Sirivennela</li>
+            <li>Closer</li>
+            <li>Believer</li>
+            <li>Rumbling</li>
+            <li>Hoyna Hoyna</li>
+            <li>Malare</li>
+            <li>The Spirit of Jersey</li>
+            <li>Kanave Kanave</li>
+            <li>Tujh Mein Rab Dikhta Hai</li>
+            <li>Yaar Yaar Sivam</li>
+            <li>Veyon Silli</li>
+            <li>Vaadi Pulla Vaadi</li>
+            <li>Andha Kanna Pathaka</li>
+            <li>Sirikadhey</li>
+            <li>Veesum Velichathile</li>
+            <li>Kutti Story</li>
+            <li>Thallipogathey</li>
+            <li>Yaanji</li>
+          </ol>
+        </div>
+        <!-- <div style="width: 100px; float:left; height:100px; background:gray; margin:10px">
+            First DIV
+        </div>
+         <div style="width: 100px; float:left; height:100px; background:yellow; margin:10px">
+            Second DIV
+         </div> -->
+        <div class="col-right">
+            <p>My Recent Songs</p>
+            <br>
+            <ol>
+                <li>Love is Gone</li>
+                <li>Heatwaves</li>
+                <li>Sunflower</li>
+                <li>Darasal</li>
+                <li>Venom</li>
+                <li>See You Again</li>
+                <li>My Heart's Stereo</li>
+                <li>Qaafirana</li>
+                <li>Shayad</li>
+                <li>Ik Vaari Aa</li>
+                <li>Ranjha</li>
+                <li>Vaaste</li>
+                <li>Agar Tum Ho</li>
+                <li>Rait Zara Si</li>
+                <li>Kaise Hua</li>
+                <li>Mudhal Nee Mudivum Nee</li>
+                <li>Dharshana</li>
+                <li>Uyire Ft-Sid Sriram</li>
+                <li>Adiye</li>
+                <li>In the End</li>
+            </ol>
+        </div>
+       
+    </div>
+</body>
+</html>

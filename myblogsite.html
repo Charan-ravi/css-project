@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <head>
+    
     <title>Myblog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link href="file:///S:/git-proj/css-project/progress/5-2-22/blog.html"> -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/trivial-css/cdn/trivial.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
     <style>
         .al{
             width: fit-content;
             color: aliceblue;
             float: left;
+            
             /* color: #f2f2f2; */
             text-align: center;
-            padding-left: 14px;
-            padding-right: 14px;
-            padding-top: 12px;
+            padding: 15px;
             text-decoration: none;
-            font-size: 14px;
+            font-size: 25px;
+            margin-top: 5px;
         }
         
         a {
@@ -21,46 +28,182 @@
         .about,#me{
             /* float: left; */
             padding: 40px;
+            /* margin: 40px; */
         }
         .content img{
             /* padding: 10%; */
             float:right;
         }
-
+        .content{
+            margin: 40px;
+        }
+        .top-bar{
+            /* padding: 10px; */
+            height: 20px;
+        }
+        .end-bar{
+            position:fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: white;
+            height: 25px;
+            background-color: rgb(66, 62, 62); 
+            padding-left: 90px;
+            padding-top: 10px; 
+            font-size: 13px;
+        }
+        .about a,#me{
+            font-size:60px;
+            font-weight:400;
+            /* font-family: 'Gilmer Medium'; */
+            /* font-size: 32px; */
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        .about a:hover{
+            text-decoration: underline;
+        }
+        #first-read a{
+            padding: 40px;
+            font-size: 40px;
+            font-style: oblique;
+        }
+        #first-read{
+            margin: 40px;
+            padding: 50px;
+            background:gold;
+        }
+        #first-read:hover{
+            text-transform:capitalize;
+            border: 1px black solid;
+        }
+        .data{
+            margin: 50px;
+        }
+        .para{
+            max-width: 70rem;
+        }
+        .para:hover{
+            background-color: darkseagreen;
+        }
+        .title{
+            color: rgb(20, 116, 41);
+        }
+        /* .about{
+            position: sticky;
+        } */
     </style>
     <script src="https://kit.fontawesome.com/49a6b63fe1.js" crossorigin="anonymous">
+        function myInsta(){
+            window.location.href="https://www.instagram.com/";
+        }
+        function myFacebook(){
+            window.location.href="https://www.instagram.com/";
+        }
+        
     </script>
 </head>
-<body style="background-color: #FAF2E8;">
-    <div name="top-bar"style="background-color: rgb(66, 62, 62); height: 35px; color: white;display: flex;">
-        <a class="al" style="margin-left: 120px;" href="#home">Home</a>
-        <a class="al" href="#about" data-animation-role="header-element">About</a>
-        <a class="al"  href="#recentbooks">My Recent Books</a>
-        <a class="al" href="#sports" data-animation-role="header-element">Sports</a>
-        <a class="al"  href="#music">Music</a>
-        <a class="al" href="S:\git proj\css-project\travel" data-animation-role="header-element">Travel</a>
+<body style="background-color: #FAF2E8; margin: 0%;height: 100%;">
+    <div name="top-bar"style="background-color: rgb(66, 62, 62);  color: white;display: flex;">
+        
+        <a class="al"  href="#home">Home </a>
+        <!-- <a class="al" href="#about" data-animation-role="header-element">About</a> -->
+        <a class="al"  href="S:\git-proj\css-project\progress\5-2-22\myblog.html">Books</a>
+        <!-- <a class="al" href="#sports" data-animation-role="header-element">Sports</a> -->
+        <a class="al"  href="S:\git-proj\css-project\music.html">Music</a>
+        <a class="al" href="S:\git-proj\css-project\travel.html" data-animation-role="header-element">Travel</a>
         <!-- <i class="al fas fa-address-card"></i> -->
-        <img class="al" style="height: 42%;" src="https://img.icons8.com/office/16/000000/bookmark-ribbon--v1.png"/>
-        <img class="al" style="height: 42%;" src="https://img.icons8.com/ios/16/000000/facebook--v1.png"/>
+        <a  class="al" href="https://www.instagram.com/_charan.r_46/" style="height: 40px;" >
+            <img  style="height: 20px;" src="https://4.bp.blogspot.com/-CASWLlDY9Y4/XDz-d4nOI1I/AAAAAAAAG3I/GnCipTS8YqE2d2WeGn9uAZq3IEVT8pBiwCK4BGAYYCw/s1600/logo%2BInstagram%2Bvector.png"/>
+        </a>
+        <a class="al" href="https://www.facebook.com/charan.ravi.9809" style="height: 40px;">
+             <img  style="height: 20px;" src="https://th.bing.com/th/id/OIP.yJSv22hpgMQb2Jn9Ot6N_AHaHa?pid=ImgDet&rs=1">
+        </a>
+        <!-- <i class=" al fa-brands fa-twitter"></i> -->
+        <!-- <i class="fa-brands fa-twitter-square"></i> -->
+        <!-- <i class="fa-brands fa-instagram"></i> -->
+        <!-- <img class="al" style="height:  42%;" src="https://morningpicker.com/wp-content/uploads/2019/11/fix-instagram-app-windows-10.jpg"> -->
         
     </div>
-    <div class="content">
-        <img width="300px" height="400px"  src="https://lh3.googleusercontent.com/Y9aE0Qvd6jr67-x8HsE2tl6jCpsse_CjKApd2LfwQY_IhposzD3zoBjYnMgk497f9ARpfyyqdMhVKImOdmfuoYVgnKRdLUXGdDZAU8jfv5uuNjpW4b09D0kb8pXPfRrwQc32sqNQ7pFO1NMXQkPrtg09q8IU4fAM6m2YL6e2sEXvFE5KxlyAkiqgwuRTmTBJ5M68rTZG1vRTDxrPv3-f5C1e5pPp9Y0hgzZXxEe2q1Ui0-agDGu5btfyKH2ysXCTB9lGCURCOiRTKuzGlyCAtXyG0CZP1uVQXx1_5z1mHy6vQXGq7cK03rAWlCL8PB5g5mwRFH9eVGHm_9wyQrdhTpB5TbxWaW8cCNn4DnYOjyRonfYn4AnzdLgqyqgRe2DUjAQ8CrFymMiBvAsN8kE4Pgq8xTaL4gmfjCOoINDWNN8V9mJnaEyHbbzcB3mOsQ97hvl3rfXOcSiXzETXWM_GMXLYUcDj9ZZkJQTnNURKLxJH-1GBNl5rDIQD2DWeRTSOMtxd3BmyyCpNj4N0br_jKRetXCGGgG7TvioWu4J3ohxJ5exnH2gtlnHjmEBGyQ_kNg3HL5wk3iAIxrSPKbOua3f69OaE_eGzoU-RJSMwgBQYB9QVDNMENGq_E9ArxqX0bIG73A52pjBMyrkXzBrYr837H09WhRHgaJ198jvTXWv_pSWEars2sqedRMy48HckcGncJwxX-dLIUqQiL2xaLWY=w728-h969-no?authuser=0">
-        <form>
+    <div class="content" style="display: flex; height: 100%;" >
+        <section  style="background-color: rgb(241, 211, 211); width: 50%; height: 620px;">
             <h2 id="me">Charan Ravi,</h2><br>
+            <div class="about">
+                
+                <a href="#" style="color: orange; ">Fellow student, </a>
+                <a href="#"style="color: rgb(0, 195, 255);">Enthusiast, </a>
+                <a href="#"style="color: black;">Young Aspirant </a>
+                <a href="#"style="color: red;"> and a <br>First Time Blogger.</a>
+                
+                
+                
+
+                </div>
+        </section>
+        <!-- <img width="300px" height="400px"  src="https://lh3.googleusercontent.com/Y9aE0Qvd6jr67-x8HsE2tl6jCpsse_CjKApd2LfwQY_IhposzD3zoBjYnMgk497f9ARpfyyqdMhVKImOdmfuoYVgnKRdLUXGdDZAU8jfv5uuNjpW4b09D0kb8pXPfRrwQc32sqNQ7pFO1NMXQkPrtg09q8IU4fAM6m2YL6e2sEXvFE5KxlyAkiqgwuRTmTBJ5M68rTZG1vRTDxrPv3-f5C1e5pPp9Y0hgzZXxEe2q1Ui0-agDGu5btfyKH2ysXCTB9lGCURCOiRTKuzGlyCAtXyG0CZP1uVQXx1_5z1mHy6vQXGq7cK03rAWlCL8PB5g5mwRFH9eVGHm_9wyQrdhTpB5TbxWaW8cCNn4DnYOjyRonfYn4AnzdLgqyqgRe2DUjAQ8CrFymMiBvAsN8kE4Pgq8xTaL4gmfjCOoINDWNN8V9mJnaEyHbbzcB3mOsQ97hvl3rfXOcSiXzETXWM_GMXLYUcDj9ZZkJQTnNURKLxJH-1GBNl5rDIQD2DWeRTSOMtxd3BmyyCpNj4N0br_jKRetXCGGgG7TvioWu4J3ohxJ5exnH2gtlnHjmEBGyQ_kNg3HL5wk3iAIxrSPKbOua3f69OaE_eGzoU-RJSMwgBQYB9QVDNMENGq_E9ArxqX0bIG73A52pjBMyrkXzBrYr837H09WhRHgaJ198jvTXWv_pSWEars2sqedRMy48HckcGncJwxX-dLIUqQiL2xaLWY=w728-h969-no?authuser=0"> -->
+        <section style="width: 50%; height: 620px; background-image: url('https://lh3.googleusercontent.com/Y9aE0Qvd6jr67-x8HsE2tl6jCpsse_CjKApd2LfwQY_IhposzD3zoBjYnMgk497f9ARpfyyqdMhVKImOdmfuoYVgnKRdLUXGdDZAU8jfv5uuNjpW4b09D0kb8pXPfRrwQc32sqNQ7pFO1NMXQkPrtg09q8IU4fAM6m2YL6e2sEXvFE5KxlyAkiqgwuRTmTBJ5M68rTZG1vRTDxrPv3-f5C1e5pPp9Y0hgzZXxEe2q1Ui0-agDGu5btfyKH2ysXCTB9lGCURCOiRTKuzGlyCAtXyG0CZP1uVQXx1_5z1mHy6vQXGq7cK03rAWlCL8PB5g5mwRFH9eVGHm_9wyQrdhTpB5TbxWaW8cCNn4DnYOjyRonfYn4AnzdLgqyqgRe2DUjAQ8CrFymMiBvAsN8kE4Pgq8xTaL4gmfjCOoINDWNN8V9mJnaEyHbbzcB3mOsQ97hvl3rfXOcSiXzETXWM_GMXLYUcDj9ZZkJQTnNURKLxJH-1GBNl5rDIQD2DWeRTSOMtxd3BmyyCpNj4N0br_jKRetXCGGgG7TvioWu4J3ohxJ5exnH2gtlnHjmEBGyQ_kNg3HL5wk3iAIxrSPKbOua3f69OaE_eGzoU-RJSMwgBQYB9QVDNMENGq_E9ArxqX0bIG73A52pjBMyrkXzBrYr837H09WhRHgaJ198jvTXWv_pSWEars2sqedRMy48HckcGncJwxX-dLIUqQiL2xaLWY=w728-h969-no?authuser=0');">
+            <!-- <h2 id="me">Charan Ravi,</h2><br>
             <div class="about">
                 <h3 style="color: orange; font: 20.101px Hind;">Fellow student,</h3>
                 <h3 style="color: rgb(0, 195, 255);">Enthusiast,</h3>
                 <h3 style="color: black;">CEG Aspirant</h3>
                 <h3 style="color: red;">and a First Time Blogger.</h3>
-            </div>
+            </div> -->
         
-        </form>
+        </section>
         
     </div>
-    <div name="end-bar"
-        style=" height: 25px;background-color: gainsboro; padding-left: 90px; padding-top: 10px; font-size: 13px;color: gray;">
-        About | Contact | Privacy Policy | Cookie Policy
+    <div id ="first-read">
+        <a href="S:\git-proj\css-project\progress\5-2-22\blog.html">My first Blog about a random subject</a>
+    </div>
+    <section class="data">
+        <div name="title" class="side-by-side">
+            <form>
+                <h1 class="title">My first blog post</h1><br>
+        <h3 class="title" >05-02-2022</h3>
+            </form>
+        
+    </div>
+    <div class="side-by-side">
+	<div class="para">
+        <h3 class="title">This blog is about how amazing a day in life goes</h3>
+        <p style="text-align: justify;">You're going to make a choice today that will have a direct impact on where you are five years from now. The truth is, you'll make choice like that every day of your life. The problem is that on most days, you won't know the choice you make will have such a huge impact on your life in the future. So if you want to end up in a certain place in the future, you need to be careful of the choices you make today.
+            Twenty-five hours had passed since the incident. It seemed to be a lot longer than that. That twenty-five hours seemed more like a week in her mind. The fact that she still was having trouble comprehending exactly what took place wasn't helping the matter. 
+            She thought if she could just get a little rest the entire incident might make a little more sense. The words hadn't flowed from his fingers for the past few weeks. He never imagined he'd find himself with writer's block,
+            but here he sat with a blank screen in front of him. That blank screen taunting him day after day had started to play with his mind. He didn't understand why he couldn't even type a single word, just one to begin the process and build from there. And yet,
+            he already knew that the eight hours he was prepared to sit in front of his computer today would end with the screen remaining blank. What was beyond the bend in the stream was unknown. Both were curious, but only one was brave enough to want to explore. 
+            That was the problem. There was always one that let fear rule her life. At that moment, she realized that she had created her current life. It wasn't the life she wanted, but she took responsibility for how it currently stood. 
+            Something clicked and she saw that every choice she made to this point in her life had led to where her life stood at this very moment even if she knew this wasn't where she wanted to be. She determined to choose to change it.
+            Out of another, I get a lovely view of the bay and a little private wharf belonging to the estate. There is a beautiful shaded lane that runs down there from the house. I always fancy I see people walking in these numerous paths and arbors,
+            but John has cautioned me not to give way to fancy in the least. He says that with my imaginative power and habit of story-making a nervous weakness like mine is sure to lead to all manner of excited fancies and 
+            that I ought to use my will and good sense to check the tendency. So I try. She was infatuated with color. She didn't have a favorite color per se, but she did have a fondness for teals and sea greens.
+            You could see it in the clothes she wore that color was an important part of her overall style. She took great pride that color flowed from her and that color was always all around her. That is why, she explained to her date sitting across the table, 
+            that she could never have a serious relationship with him due to the fact that he was colorblind. It was supposed to be a dream vacation. They had planned it over a year in advance so that it would be perfect in every way. 
+            It had been what they had been looking forward to through all the turmoil and negativity around them. It had been the light at the end of both their tunnels. Now that the dream vacation was only a week away, the virus had stopped all air travel.
+            He had three simple rules by which he lived. The first was to never eat blue food. There was nothing in nature that was edible that was blue. People often asked about blueberries, but everyone knows those are actually purple.
+            He understood it was one of the stranger rules to live by, but it had served him well thus far in the 50+ years of his life. Love isn't always a ray of sunshine. That's what the older girls kept telling her when she said she had found the perfect man. 
+            She had thought this was simply bitter talk on their part since they had been unable to find true love like hers. But now she had to face the fact that they may have been right. Love may not always be a ray of sunshine. That is unless they were referring to how the sun can burn.
+            They needed to find a place to eat. The kids were beginning to get grumpy in the back seat and if they didn't find them food soon, it was just a matter of time before they were faced with a complete meltdown. Even knowing this, the solution wasn't easy.
+            Everyone in the car had a different opinion on where the best place to eat would be with nobody agreeing with the suggestions of the others. 
+            It seemed to be an impossible no-win situation where not everyone would be happy no matter where they decided to eat which in itself would lead to a meltdown. Yet a decision needed to be made and it needed to be made quickly.
+        </p>
+    </div>
+    <div name="details"  class="space-left-50" >
+        <h3 class="title">Some other post</h3>
+        <p >12 Dec 2014</p>
+        <br>
+        <h3 class="title">About CSS</h3>
+        <p >08 Nov 2014</p>
+        <br>
+        <h3 class="title">Web design is awesome</h3>
+        <p >29 Aug 2014</p>
+        <br>
+    </div>
+    </div>
+    </section>
+    <div class="end-bar" >
+        © Copyright 2022. All rights reserved.
     </div>
 </body>
 </html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<head>
+    <title>Sports</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="shortcut icon" href="https://cdn.dribbble.com/users/1358255/screenshots/4026915/cute_owl.png"/>
+    <style>
+        *{
+            margin: 5px;
+            padding: 5px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            box-sizing: border-box;
+        }
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        body{
+            margin: 0%;
+            padding: 0%;
+        }
+        #blog{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* padding-bottom: 40px; */
+            border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+        }
+        #blog-heading{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+        /* .heading h3{
+            color: rgb(194, 21, 21);
+        } */
+        .heading h3{
+            font-size: 2.4rem;
+            font-weight: 300;
+            color: #0b0e02;
+        }
+        .contents{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0px;
+            flex-wrap: wrap;
+        }
+        .box{
+            width: 370px;
+            background-color: antiquewhite;
+            border: 1px solid #0c0909;
+            margin: 20px;
+            height: 900px;
+        }
+        .images{
+            width:350px;
+            /* height: auto; */
+        }
+        .images img{
+            width:100%;
+            height: 550px;
+            object-fit: cover;
+            object-position: center;
+        }
+        .text{
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .text span{
+            color: firebrick;
+        }
+        .text .blog-title{
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: #272727;
+        }
+        .blog-title:hover{
+            color: #f3703c;
+            transition: all ease 0.3s;
+        }
+        .text p{
+            color: #9b9b9b;
+            font-size: 0.9rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            box-sizing: content-box;
+            overflow-y: scroll;
+            text-overflow: ellipsis;
+            margin: 20px 0px;
+        }
+        .text a{
+            color: #0b0e02;
+        }
+        .text:hover{
+            color: #e05924;
+            transition: all ease 0.3s;
+        }
+        .button{
+            color: #0b0e02;
+            background-color: #f3703c;
+            padding: 10px;
+            
+        }
+        ::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+    </style>
+    <script>
+        function goHome(){
+            window.location.href="S:/git-proj/css-project/myblogsite.html";
+        }
+    </script>
+</head>
+<body>
+    <button onclick="goHome()" id="button">Back</button>
+    <section id="blog">
+        <div class="heading">
+            <h3>My Favorite Sports</h3>
+            <!-- <h3>My Blog</h3> -->
+        </div>
+        <!-- blog container -->
+        <div class="contents">
+            <!-- box1 -->
+            <div class="box">
+                <!-- images -->
+                <div class="images">
+                    <img width="270px"  src="https://static-cse.canva.com/blob/142564/Colorful-Illustration-Young-Adult-Book-Cover.jpg" alt="Blog">
+                </div>
+                <!-- text / blog preview -->
+                <div class="text">
+                    <span>27 Feb 2018 / Sophie Hill</span>
+                    <a href="#" class="blog-title">The hypocrite World?</a>
+                    <p>Waiting and watching. It was all she had done for the past weeks. When you’re locked in a room with nothing but food and drink, that’s about all you can do anyway. She watched as birds flew past the window bolted shut. She couldn’t reach it if she wanted too, with that hole in the floor. She thought she could escape through it but three stories is a bit far down.
+                        You can decide what you want to do in life, but I suggest doing something that creates. Something that leaves a tangible thing once you're done. That way even after you're gone, you will still live on in the things you created.
+                        I don’t like cats and they don’t like me. I used to be allergic to them and I would get stuffed up and have hives. That doesn’t seem to happen anymore. But I still don’t like them. I lived with 3 cats that were not good at peeing in the litter box. They seemed to find something important to me and pee on it. Most of the time they peed on photographs or papers that would be ruined. Cats also bring fleas into the house. There is nothing worse than having to flea dip cats and also flea bomb a home. That is why I don’t like cats.</p>
+                    <a href="#">Read more</a>  
+                    </div>
+            </div>
+            <!-- box2 -->
+            <div class="box">
+                <!-- images -->
+                <div class="images">
+                    <img width="300px" src="https://th.bing.com/th/id/OIP.hf3I-44oIMTzz1t2SEtkfAHaLd?pid=ImgDet&rs=1" alt="Blog">
+                </div>
+                <!-- text / blog preview -->
+                <div class="text">
+                    <span>07 April 2018 / Neil Grant</span>
+                    <a href="#" class="blog-title">The Ink Bridge</a>
+                    <p>The bridge spanning a 100-foot gully stood in front of him as the last obstacle blocking him from reaching his destination. While people may have called it a "bridge", the reality was it was nothing more than splintered wooden planks held together by rotting ropes. It was questionable whether it would hold the weight of a child, let alone the weight of a grown man. The problem was there was no other way across the gully, and this played into his calculations of whether or not it was worth the risk of trying to cross it.
+                        According to the caption on the bronze marker placed by the Multnomah Chapter of the Daughters of the American Revolution on May 12, 1939, “College Hall (is) the oldest building in continuous use for Educational purposes west of the Rocky Mountains. Here were educated men and women who have won recognition throughout the world in all the learned professions.”
+                        After hunting for several hours, we finally saw a large seal sunning itself on a flat rock. I took one of the wooden clubs while Larry took the longer one. We slowly snuck up behind the seal until we were close enough to club it over its head. The seal slumped over and died. This seal would help us survive. We could eat the meat and fat. The fat could be burned in a shell for light and the fur could be used to make a blanket. We declared our first day of hunting a great success.</p>
+                    <a href="#">Read more</a>  
+                    </div>
+            </div>
+            <!-- box3 -->
+            <div class="box">
+                <!-- images -->
+                <div class="images">
+                    <img width="300px" src="https://th.bing.com/th/id/R.c977ae6c5257cbff90d5a4ee8ae3ae48?rik=5ck5myMupmtTUw&riu=http%3a%2f%2fglobal.penguinrandomhouse.com%2fwp-content%2fuploads%2f2017%2f12%2fQueenOfHearts.jpg&ehk=XNMqEQmtySQ%2bWNUUXZGxBmgmrB9XUVqDj9hgQwR4xNM%3d&risl=&pid=ImgRaw&r=0" alt="Blog">
+                </div>
+                <!-- text / blog preview -->
+                <div class="text">
+                    <span>04 Mar 2019 / Kimmery Martin</span>
+                    <a href="#" class="blog-title">The Queen of Hearts</a>
+                    <p>Her breath exited her mouth in big puffs as if she were smoking a cigarette. The morning dew had made her clothes damp and she shivered from the chill in the air. There was only one thing that could get her up and out this early in the morning.
+                        It was easy to spot her. All you needed to do was look at her socks. They were never a matching pair. One would be green while the other would be blue. One would reach her knee while the other barely touched her ankle. Every other part of her was perfect, but never the socks. They were her micro act of rebellion.
+                        The light blinded him. It was dark and he thought he was the only one in the area, but the light shining in his eyes proved him wrong. It came from about 100 feet away and was shining so directly into his eyes he couldn't make out anything about the person holding the light. There was only one thing to do in this situation. He reached into his pocket and pulled out a flashlight of his own that was much stronger than the one currently blinding him. He turned it on and pointed it into the stranger's eyes</p>
+                    <a href="#">Read more</a>  
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- <center>The End</center> -->
+</body>
+</html>
