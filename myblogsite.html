@@ -84,11 +84,46 @@
         .para{
             max-width: 70rem;
         }
-        .para:hover{
-            background-color: darkseagreen;
+        .para h3:hover{
+            color: rgb(240, 151, 151);
+            transition: 0.4s;
         }
         .title{
             color: rgb(20, 116, 41);
+            font-size: 30px;
+        }
+        .title a{
+            color: rgb(20, 116, 41);
+        }
+        .title a:hover{
+            color: rgb(252, 147, 86);
+            transition: 0.4s;
+        }
+        #paragraph{
+            display:-webkit-box;
+            -webkit-line-clamp: 15;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            font-size: 25px;
+            /* overflow-x: scroll; */
+            box-sizing: content-box;
+            overflow-y:scroll;
+            text-overflow: ellipsis;
+        }
+        .article{
+            margin: 50px;
+        }
+        .article a{
+            color:peru;
+            font-size: 60px;
+        }
+        .article a:hover{
+            color: darkkhaki;
+            transition: 0.3s;
+        }
+        .article img{
+            width: 100%;
+            height: 40%;
         }
         /* .about{
             position: sticky;
@@ -168,7 +203,7 @@
     <div class="side-by-side">
 	<div class="para">
         <h3 class="title">This blog is about how amazing a day in life goes</h3>
-        <p style="text-align: justify;">You're going to make a choice today that will have a direct impact on where you are five years from now. The truth is, you'll make choice like that every day of your life. The problem is that on most days, you won't know the choice you make will have such a huge impact on your life in the future. So if you want to end up in a certain place in the future, you need to be careful of the choices you make today.
+        <p id="paragraph" style="text-align: justify;">You're going to make a choice today that will have a direct impact on where you are five years from now. The truth is, you'll make choice like that every day of your life. The problem is that on most days, you won't know the choice you make will have such a huge impact on your life in the future. So if you want to end up in a certain place in the future, you need to be careful of the choices you make today.
             Twenty-five hours had passed since the incident. It seemed to be a lot longer than that. That twenty-five hours seemed more like a week in her mind. The fact that she still was having trouble comprehending exactly what took place wasn't helping the matter. 
             She thought if she could just get a little rest the entire incident might make a little more sense. The words hadn't flowed from his fingers for the past few weeks. He never imagined he'd find himself with writer's block,
             but here he sat with a blank screen in front of him. That blank screen taunting him day after day had started to play with his mind. He didn't understand why he couldn't even type a single word, just one to begin the process and build from there. And yet,
@@ -190,18 +225,33 @@
         </p>
     </div>
     <div name="details"  class="space-left-50" >
-        <h3 class="title">Some other post</h3>
+        <h3 class="title">
+            <a href="https://designformankind.com/2022/03/we-are-not-monarchs/">Some other post</a>
+        </h3>
         <p >12 Dec 2014</p>
         <br>
-        <h3 class="title">About CSS</h3>
+        <h3 class="title">
+            <a href="https://www.w3schools.com/css/css_intro.asp"> About CSS</a>
+        </h3>
         <p >08 Nov 2014</p>
         <br>
-        <h3 class="title">Web design is awesome</h3>
+        <h3 class="title">
+            <a href="https://www.interaction-design.org/literature/topics/good-design">Web design is awesome</a>
+        </h3>
         <p >29 Aug 2014</p>
         <br>
     </div>
     </div>
     </section>
+    <article class="article">
+        <h2>
+            <a href="https://letsreachsuccess.com/best-blog-posts/"> Popular Post</a> 
+        </h2>
+        <img src="">
+        <img src="">
+        <img src="">
+    </article>
+
     <div class="end-bar" >
         © Copyright 2022. All rights reserved.
     </div>
